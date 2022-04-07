@@ -7,9 +7,7 @@ const ListComponent = () => {
 
   useEffect(() => {
     setListItems([
-      { id: 1, text: 'Ir a Ámsterdam y paises aledaños' },
-      { id: 2, text: 'Tour gastronómico por Laureles' },
-      { id: 3, text: 'Cocinar algo bien pro' },
+      { id: 1, text: 'Olviden los demás elementos, hoy solo importa el café.' },
     ]);
   }, []);
 

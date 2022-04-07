@@ -7,7 +7,7 @@ const ListItem = ({ item, onMarkClick }) => {
 
   return (
     <div className='text-semibold text-gray-300 ml-2 mr-2'>
-      <div className='mt-4 flex items-center'>
+      <div className='flex items-center'>
         {marked ? (
           <FontAwesomeIcon
             className='cursor-pointer hover:text-white mr-2'
