@@ -6,10 +6,15 @@ const App = () => {
   // Set the date we're counting down to
   const countDownDate = new Date('Apr 1, 2023 23:59:59').getTime();
   const coffeDate = new Date('Apr 7, 2022 19:00:00').getTime();
+  const directorDate = new Date('Apr 7, 2035 19:00:00').getTime();
 
   return (
     <main className='bg-gray-700 h-screen'>
       <Navbar />
+      <Countdown
+        targetDate={directorDate}
+        message=' para que puedas ser directora de obra 👷‍♀️'
+      />
       <Countdown
         targetDate={countDownDate}
         message=' para la Semana Santa del próximo año, que es cuando me despachas 😥'
